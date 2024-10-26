@@ -1,0 +1,76 @@
+/* .reviewSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding: 15px;
+  background: #fff;
+  .reviewHere {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    strong {
+      font-size: 1.8em;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+    .review {
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: normal;
+      flex-direction: column;
+      width: 70%;
+      .peopleImg {
+        width: 102px;
+        height: 85px;
+        border-radius: 50%;
+        overflow: hidden;
+        img {
+          width: 100%;
+          transform: translateY(15px);
+          scale: 2;
+          object-fit: cover;
+        }
+      }
+      span {
+        margin: 15px 0px;
+        font-size: 1.2em;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+    }
+    .testinomilReviewbtn {
+      position: relative;
+      height: 3em;
+      width: 80%;
+      button {
+        top: 5px;
+        right: 15px;
+        position: absolute;
+        background-color: #fff;
+        outline: none;
+        border: 1px solid #000;
+        padding: 5px 8px;
+        cursor: pointer;
+        font-family: sans-serif;
+        &:nth-child(1) {
+          right: 50px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .reviewSection {
+    flex-direction: column;
+    min-height: 115vh;
+    width: 100%;
+    .reviewHere,
+    .review {
+      width: 100%;
+    }
+  }
+}
+ *//*# sourceMappingURL=styleIndex.css.map */
